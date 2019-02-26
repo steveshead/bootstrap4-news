@@ -1,0 +1,432 @@
+/* News Theme Styles */
+.bg-dark {
+  background-color: #101920 !important;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Montserrat';
+  font-weight: 400;
+}
+
+p {
+  font-family: 'Helvetica Neue';
+  font-weight: 300;
+  font-size: 1.1em;
+  line-height: 1.6em;
+}
+
+a {
+  font-family: 'Helvetica Neue';
+  font-weight: 300;
+  font-size: 1.1em;
+  line-height: 1.6em;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.sub {
+  letter-spacing: 1px !important;
+  font-weight: 300 !important;
+}
+
+.btn {
+  text-transform: uppercase;
+}
+
+.btn-black {
+  color: #fff;
+  background-color: #101920;
+  border-color: #101920;
+}
+
+.btn-black:hover {
+  color: #e2e6ea;
+  background-color: #000;
+  border-color: #000;
+}
+
+.hr {
+  max-width: 300px;
+  height: 1px;
+  padding: 0;
+  text-align: center;
+  clear: left;
+  display: block;
+  margin: 20px auto 40px auto;
+  width: 100%;
+  background: linear-gradient(to left, rgba(255, 255, 255, 1), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3), rgba(255, 255, 255, 1));
+}
+
+.hr:before {
+  content: "\e82d";
+  font-family: 'icomoon';
+  font-weight: lighter;
+  position: relative;
+  top: -0.7em;
+  color: #777;
+  font-size: 22px;
+  padding: 0.4em 0.2em 0.4em 0.4em;
+  border-radius: 50%;
+  background-color: #f5f5f5;
+}
+
+.hr-footer {
+  max-width: 75%;
+  height: 1px;
+  padding: 0;
+  text-align: center;
+  clear: left;
+  display: block;
+  margin: 20px auto 30px auto;
+  width: 100%;
+  background: linear-gradient(to left, rgba(255, 255, 255, 1), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3), rgba(255, 255, 255, 1));
+}
+
+.bkg {
+  background-color: #f5f5f5;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+.blockquote {
+  line-height: 1.6em;
+}
+
+.header-p {
+  font-size: 1.7rem;
+  display: inline-block;
+}
+
+.nav-item {
+  margin-right: 15px;
+}
+
+.nav-link.signup {
+  background: #17a2b8;
+  border-radius: 3px;;
+}
+
+.nav-link.signup:hover {
+  background: #138496;
+}
+
+/* letter spacing */
+.ls-1 {
+  letter-spacing: 1px;
+}
+
+.ls-2 {
+  letter-spacing: 2px;
+}
+
+.ls-3 {
+  letter-spacing: 3px;
+}
+
+.ls-4 {
+  letter-spacing: 4px;
+}
+
+/* font weights */
+.fw-200 {
+  font-weight: 200;
+}
+
+.fw-300 {
+  font-weight: 300;
+}
+
+.fw-400 {
+  font-weight: 400;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.fw-600 {
+  font-weight: 600;
+}
+
+/* front page */
+.frontpage-header {
+  min-height: 95vh;
+  position: relative;
+  background-position: center center !important;
+  background-size: cover;
+  background-image: url('assets/images/city-sunny-people-street.jpg');
+  background-attachment: fixed;
+}
+
+.frontpage-header h1 {
+  font-size: 4.9rem;
+  letter-spacing: -4px;
+  font-weight: 400;
+  line-height: 77px;
+  background-color: #101920;
+  display: inline-block;
+  padding: 10px 15px;
+}
+
+.frontpage-header p {
+  font-weight: 300;
+  font-size: 1.2rem;
+  line-height: 33px;
+  background-color: #101920;
+  display: inline-block;
+  padding: 10px 15px;
+  letter-spacing: 2px;
+}
+
+.frontpage h1 {
+  font-family: Montserrat;
+  font-size: 3rem;
+  line-height: 42px;
+  letter-spacing: -3px;
+  font-weight: 600;
+  margin-top: 35px;
+  margin-bottom: 0;
+}
+
+.frontpage h2 {
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-align: center;
+}
+
+.frontpage small {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.frontpage .cba p {
+  padding: 0 20px;
+}
+
+.frontpage .icon-pipe {
+  font-size: 6em;
+}
+
+/* news page */
+.news-header {
+  min-height: 95vh;
+  padding: 0;
+  position: relative;
+  background-position: center center !important;
+  background-size: cover;
+  background-image: url('assets/images/city-road-street-buildings.jpg');
+  background-attachment: fixed;
+}
+
+.news small {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* subscribe button edits */
+.subscribe a.btn-outline-info:hover {
+  color: #fff !important;
+}
+
+/* about page */
+.about-page {
+  min-height: 95vh;
+  padding: 0;
+  position: relative;
+  background-position: center center !important;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url('assets/images/city-690158.jpg');
+  background-attachment: fixed;
+}
+
+.about h1 {
+  font-family: Montserrat;
+  font-size: 4rem;
+  line-height: 52px;
+  letter-spacing: -3px;
+  font-weight: 600;
+  margin-top: 35px;
+}
+
+.about h2 {
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-align: center;
+}
+
+.about p {
+  margin-bottom: 35px;
+}
+
+.about .lean p {
+  font-style: italic;
+}
+
+.about small {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+/* clients */
+.clients img {
+  display: inline-block;
+}
+
+/* section break */
+.image-section {
+  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('assets/images/city-sunny-people-street.jpg');
+  background-position: center center !important;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.image-section h1 {
+  text-shadow: 0 0 3px #000;
+  letter-spacing: -4px;
+}
+
+/* animated icon blocks */
+/* Process */
+.process-inner {
+  width: 100%;
+  text-align: center;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  margin-top: -20px;
+}
+
+.process-inner .icon-holder {
+  position: relative;
+  top: 70px;
+  display: inline-block;
+  padding: 10px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  background-color: #fff;
+  margin-bottom: 35px;
+}
+
+.process-inner .heading {
+  position: relative;
+  top: 60px;
+  -webkit-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.process-inner .icon-holder>img.icon {
+  width: 40px;
+}
+
+.process-inner:hover {
+  border-color: #d96051;
+}
+
+.process-inner:hover .icon-holder {
+  top: 30px;
+}
+
+.process-inner:hover .heading {
+  top: 0px;
+}
+
+.process-inner .description {
+  width: 80%;
+  margin: 0 auto;
+  opacity: 0;
+  padding-bottom: 40px;
+  line-height: 20px;
+  font-weight: 200;
+  -webkit-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+}
+
+.process-inner:hover .description {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.process-inner .btn {
+  opacity: 0;
+  -webkit-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  margin-top: -20px;
+}
+
+.process-inner:hover .btn {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.process {
+  padding-bottom: 25px;
+}
+
+.process-inner i {
+  font-size: 50px;
+  margin-bottom: 35px;
+  color: #333;
+}
+
+.process-inner h4 {
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+.process-inner .process-icon {
+  color: #777;
+}
+
+/* contact */
+.contact small {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+/* footer */
+.footer h4 {
+  text-transform: uppercase;
+}
+
+.footer a {
+  color: #f8f9fa;
+  text-decoration: none;
+}
+
+.footer li a {
+  line-height: 1.75rem;
+  font-weight: 200;
+}
+
+.footer li a:hover {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.copyright a {
+  font-weight: 400;
+}
+
+.copyright small {
+  font-family: 'Helvetica Neue';
+  font-weight: 400;
+}
